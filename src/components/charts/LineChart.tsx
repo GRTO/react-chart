@@ -14,7 +14,7 @@ const options: Highcharts.Options = {
         }
     ],
 };
-class HighStock extends Component {
+class LineChart extends Component {
     render() {
         return (
             <div className="line-series">
@@ -26,4 +26,4 @@ class HighStock extends Component {
         );
     }
 }
-export default HighStock;
+export default LineChart;
