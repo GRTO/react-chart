@@ -3,13 +3,13 @@ import LineChart from './charts/LineChart';
 import PieChart from './charts/PieChart';
 
 export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <LineChart />
+	render() {
+		return (
+			<div>
+				<LineChart />
 
-                <PieChart />
-            </div>
-        );
-    }
+				<PieChart />
+			</div>
+		);
+	}
 }
