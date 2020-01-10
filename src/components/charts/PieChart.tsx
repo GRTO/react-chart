@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Highcharts from 'highcharts/highstock';
-import PieChart from 'highcharts-react-official';
+import HighchartsReact from 'highcharts-react-official';
 
 const options: Highcharts.Options = {
   series: [
@@ -18,13 +18,13 @@ const options: Highcharts.Options = {
   ],
 };
 
-class LineChart extends Component {
+class PieChart extends Component {
   render() {
     return (
       <div className="line-series">
-        <PieChart highcharts={Highcharts} options={options} />
+        <HighchartsReact highcharts={Highcharts} options={options} />
       </div>
     );
   }
 }
-export default LineChart;
+export default PieChart;
