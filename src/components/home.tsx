@@ -4,6 +4,7 @@ import PieChart from './charts/PieChart';
 import AreaChart from './charts/AreaChart';
 import StackedChart from './charts/StackedArea';
 import BarChart from './charts/BarChart';
+import PieChartAdvanced from './charts/PieChart/PieChart.advanced';
 
 export default class Home extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Home extends Component {
         <AreaChart />
         <StackedChart />
         <BarChart />
+				<PieChartAdvanced />
       </div>
     );
   }
